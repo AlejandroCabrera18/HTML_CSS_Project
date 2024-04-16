@@ -1,0 +1,52 @@
+html{
+  background-color: silver;
+  width: 800px;
+  height: 50px;
+  overflow: scroll;
+}
+#ExamPic{
+  width: 50%;
+  height: 50%;
+  border: solid 7px black;
+}
+#Essential{
+  font-size: 30pt;
+  font-style: italic;
+}
+.firstPara{
+  text-align: left;
+}
+.middlePara{
+  padding: 10px;
+}
+.finalPara{
+  text-align: justify;
+}
+body figcaption{
+  font-size: 10pt;
+}
+h2+p{
+  font-size: 14pt;
+}
+h2~p{
+  font-weight: normal;
+  text-align: center;
+}
+#LinksList{
+  font-size: 14pt;
+}
+a:link{
+  text-decoration: underline;
+  color:blue;
+}
+a:visited{
+  text-decoration: underline;
+  color:purple;
+}
+a:hover{
+  text-decoration: none;
+  font-weight: bolder;
+}
+a:active{
+  background-color: lightBlue;
+}
